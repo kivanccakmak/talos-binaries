@@ -9,9 +9,9 @@ This repo holds **release artifacts only** — source code lives on GitLab at
 
 | Component | Description | Platforms |
 |---|---|---|
-| `talcli` | Talos CLI + MCP server (Go) | darwin/linux/windows × arm64/amd64 |
-| `talos-label-printer` | Desktop label-printing app (Electron) | macOS `.dmg`, Windows `.exe`, Linux `.AppImage` / `.deb` |
-| `talos-mobile.apk` | Android build of the Talos mobile app | android |
+| `talcli_*.tar.gz` / `.zip` | Talos CLI + MCP server (Go) | darwin/linux/windows × arm64/amd64 |
+| `talos-*.dmg` / `.exe` / `.AppImage` / `.deb` | Desktop app (Electron) — MCP installer, label printing, network discovery | macOS arm64, Windows x64, Linux x86_64 |
+| `talos-mobile_*_android.apk` | Android build of the Talos mobile app | Android 8+ |
 
 iOS builds are published to the App Store / TestFlight, not here.
 
@@ -21,8 +21,9 @@ iOS builds are published to the App Store / TestFlight, not here.
 
 ```bash
 brew tap kivanccakmak/talos
-brew install talcli                          # CLI
-brew install --cask talos-label-printer      # desktop app
+brew install talcli                # CLI
+brew install --cask talos          # desktop app (macOS)
+brew install talos                 # desktop app (Linux)
 ```
 
 ### Direct download
@@ -38,9 +39,15 @@ https://github.com/kivanccakmak/talos-binaries/releases/latest/download/<asset-n
 For example:
 
 ```bash
-# macOS arm64
-curl -fsSL "https://github.com/kivanccakmak/talos-binaries/releases/latest/download/talcli-darwin-arm64" \
-  -o /usr/local/bin/talcli && chmod +x /usr/local/bin/talcli
+# talcli (macOS arm64)
+curl -fsSL "https://github.com/kivanccakmak/talos-binaries/releases/latest/download/talcli_2.1.0_darwin-arm64.tar.gz" \
+  | tar -xz && mv talcli-darwin-arm64 /usr/local/bin/talcli
+
+# Desktop app (macOS arm64)
+open "https://github.com/kivanccakmak/talos-binaries/releases/latest/download/talos-2.0.0-arm64.dmg"
+
+# Android APK
+open "https://github.com/kivanccakmak/talos-binaries/releases/latest/download/talos-mobile_1.9.27_android.apk"
 ```
 
 ## Verifying downloads
