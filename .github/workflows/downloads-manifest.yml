@@ -1,0 +1,39 @@
+# Writes downloads.json (published releases, assets only) to main on every release change and every 30 min.
+# talos.works and private Talos tenants read it from raw.githubusercontent.com when the GitHub API is rate-limited
+# or unreachable (owner 08.11.2026: "show latest greatest apk from github").
+name: downloads manifest
+on:
+  release:
+    types: [published, edited, released, deleted, unpublished]
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: downloads-manifest
+  cancel-in-progress: false
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build downloads.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate "repos/${{ github.repository }}/releases?per_page=100" \
+            | jq -s '[ .[][] | select(.draft == false)
+                | {tag_name, name, body, draft, prerelease, published_at,
+                   assets: [ .assets[] | {id, name, label, size, content_type, browser_download_url, digest} ] } ]
+                | sort_by(.published_at) | reverse' > downloads.json.new
+          test "$(jq length downloads.json.new)" -gt 0
+          mv downloads.json.new downloads.json
+      - name: Commit when changed
+        run: |
+          git config user.name "talos-release-bot"
+          git config user.email "talos-release-bot@users.noreply.github.com"
+          git add downloads.json
+          git diff --cached --quiet && exit 0
+          git commit -m "downloads.json: $(jq -r '.[0].tag_name' downloads.json)"
+          git push
