@@ -4456,70 +4456,79 @@
     "published_at": "2026-10-13T19:12:24Z",
     "assets": [
       {
-        "id": 710965234,
+        "id": 725667941,
         "name": "InRelease",
         "label": "",
         "size": 1487,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/InRelease",
-        "digest": "sha256:e96016152b9107cf91cb430e9f24768ec3ebeb042fe90c768bfa9c39d7b3e818"
+        "digest": "sha256:a2dbfc19d9c4f8bd912259cceb8d84a0987336a50519f24915209c74bfa1b38b"
       },
       {
-        "id": 710965225,
+        "id": 725667943,
         "name": "Packages",
         "label": "",
-        "size": 4007,
+        "size": 4572,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Packages",
-        "digest": "sha256:752020c21a09c395f2528f0da0146f8bf0fdbfe0633bbfe1308d363ca34e4b7a"
+        "digest": "sha256:c02ff9b9d089e42c6b68060ba7630ff5e5814ddf521b17853a63aac68a1af08f"
       },
       {
-        "id": 710965221,
+        "id": 725667938,
         "name": "Packages.gz",
         "label": "",
-        "size": 1514,
+        "size": 1639,
         "content_type": "application/gzip",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Packages.gz",
-        "digest": "sha256:b96ee82d7d41d783881ec86c812f80338df9d09a93316ae9c13a1f22d6155f7c"
+        "digest": "sha256:a0bd78b34fcab1c8369d014ee387e6fd404c600aaf551ec6c1062e9281426071"
       },
       {
-        "id": 710965226,
+        "id": 725667940,
         "name": "Release",
         "label": "",
         "size": 576,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Release",
-        "digest": "sha256:3b9508e4d5083cce23c98bb1b487eb87136889a2de0f33905721ea82361586f5"
+        "digest": "sha256:0ee28fa2fd4bba043ec5320b1bbe4ecf62c8a2326259b55af8a9ab691c748dd6"
       },
       {
-        "id": 710965222,
+        "id": 725667937,
         "name": "Release.gpg",
         "label": "",
         "size": 862,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Release.gpg",
-        "digest": "sha256:0a9a0e50ea2a27bd3af66535390d68c45c26dacb36577f39919d59ef8c49be42"
+        "digest": "sha256:80504f98bbd74bd14a8cf309f777dc91ae6224f40fa71d552a318c1859c2e228"
       },
       {
-        "id": 710965271,
-        "name": "talcli_0.1.8241+41a4ad31f_arm64.deb",
+        "id": 725667966,
+        "name": "talcli_0.1.8919+7b7b3d850_arm64.deb",
         "label": "",
-        "size": 11268262,
+        "size": 12266488,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/talcli_0.1.8241%2B41a4ad31f_arm64.deb",
-        "digest": "sha256:10b3896245db0e6fe75a14cd00994e3337cc2b3a032ad8a0ef2761abe3491ee4"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/talcli_0.1.8919%2B7b7b3d850_arm64.deb",
+        "digest": "sha256:48583d98f9acdcf42d20cf7c429a7866b62318f106eeb315b49e1e19003b5a3a"
       },
       {
-        "id": 710965273,
-        "name": "talos-fleet_2026.11.05.1_all.deb",
+        "id": 725667974,
+        "name": "talcli_0.1.8919+7b7b3d850_armhf.deb",
         "label": "",
-        "size": 35010,
+        "size": 13162796,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/talos-fleet_2026.11.05.1_all.deb",
-        "digest": "sha256:ef30f118e01b0896a260e6e64a31c77ef5fe1073f02f1a776f7dacecb02eae96"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/talcli_0.1.8919%2B7b7b3d850_armhf.deb",
+        "digest": "sha256:dd79a9cb96a3985b7c9b5dda4ec41f69674f65045e191cdddd192bfaf4e0bec5"
       },
       {
-        "id": 710965278,
+        "id": 725667975,
+        "name": "talos-fleet_2026.11.09.8959_all.deb",
+        "label": "",
+        "size": 43198,
+        "content_type": "application/x-debian-package",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/talos-fleet_2026.11.09.8959_all.deb",
+        "digest": "sha256:6e9f238485cbf2d9a07cf04fff3404d6df1575da4ff1b4b72ca8684564195492"
+      },
+      {
+        "id": 725667976,
         "name": "talos.asc",
         "label": "",
         "size": 1656,
@@ -4528,7 +4537,7 @@
         "digest": "sha256:1b8916ab6a6352351026b9b0fa191f493193364a354230e38dad467bea4c81dc"
       },
       {
-        "id": 710965276,
+        "id": 725667982,
         "name": "talos.gpg",
         "label": "",
         "size": 1162,
@@ -4537,7 +4546,7 @@
         "digest": "sha256:8b0457834454ee8ad577e75d7b7310ce109ab783ab718176aa4a9b72afdc94e4"
       },
       {
-        "id": 710965379,
+        "id": 725668034,
         "name": "talos_2.2.71_amd64.deb",
         "label": "",
         "size": 187688420,
@@ -4546,31 +4555,31 @@
         "digest": "sha256:6f0e426eaa25aa99f21fe29c2fba66679d180c1682ef39f311d1e4c27bd2065d"
       },
       {
-        "id": 710965393,
-        "name": "tedge_0.2.35_amd64.deb",
+        "id": 725668014,
+        "name": "tedge_0.2.36_amd64.deb",
         "label": "",
-        "size": 7161810,
+        "size": 7295792,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.35_amd64.deb",
-        "digest": "sha256:a502caa37e3034089d1b7400216f5234ceffcba4a6567b125966a5e2e8f7e7bf"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_amd64.deb",
+        "digest": "sha256:94804f0c6d386bd819d70ab7f0a4a08bd546efec00a860f0877c33397a700fe0"
       },
       {
-        "id": 710965395,
-        "name": "tedge_0.2.35_arm64.deb",
+        "id": 725668023,
+        "name": "tedge_0.2.36_arm64.deb",
         "label": "",
-        "size": 6512856,
+        "size": 6633724,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.35_arm64.deb",
-        "digest": "sha256:ef7819c311bb44181dc6de4f9e635f9df887fab366e33c4559989befefb487d6"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_arm64.deb",
+        "digest": "sha256:cbdca765c3fa03b4be4aeb5d14f91807e76ae4e474efaa81eb7037d269103784"
       },
       {
-        "id": 710965400,
-        "name": "tedge_0.2.35_armhf.deb",
+        "id": 725668579,
+        "name": "tedge_0.2.36_armhf.deb",
         "label": "",
-        "size": 6878336,
+        "size": 7007566,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.35_armhf.deb",
-        "digest": "sha256:1932008236ef420626ff31c6d85af9653c83b1106c10e8c2359334f14cc243c3"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_armhf.deb",
+        "digest": "sha256:3c52405a1b81f56a5c87511cc6937804b26b507b84d3421667498fa3cd075564"
       }
     ]
   },
