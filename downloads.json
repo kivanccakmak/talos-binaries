@@ -1,5 +1,51 @@
 [
   {
+    "tag_name": "v2.2.127",
+    "name": "Talos Desktop 2.2.127",
+    "body": "Talos Desktop 2.2.127: staged automatic desktop update release.",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-13T19:49:12Z",
+    "assets": [
+      {
+        "id": 744935424,
+        "name": "latest-mac.yml",
+        "label": "",
+        "size": 499,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.127/latest-mac.yml",
+        "digest": "sha256:2b3677edccff7a96cd85d44f317cf2c2152b7ce64e3cbd42ea31f24e266dcf7e"
+      },
+      {
+        "id": 744935425,
+        "name": "Talos-2.2.127-arm64.zip",
+        "label": "",
+        "size": 218239644,
+        "content_type": "application/zip",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.127/Talos-2.2.127-arm64.zip",
+        "digest": "sha256:0f14d1d0659f4191ddf8751235e74851ac872644ec404eb1068b75af37e5d2f2"
+      },
+      {
+        "id": 744935426,
+        "name": "Talos-2.2.127-arm64.dmg",
+        "label": "",
+        "size": 224922121,
+        "content_type": "application/x-apple-diskimage",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.127/Talos-2.2.127-arm64.dmg",
+        "digest": "sha256:84b1ef05f53a69b28b86219d5ad176182cf3bbb592fe9e8454a999155772e82a"
+      },
+      {
+        "id": 744935427,
+        "name": "Talos-2.2.127-arm64.zip.blockmap",
+        "label": "",
+        "size": 228827,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.127/Talos-2.2.127-arm64.zip.blockmap",
+        "digest": "sha256:f5cf2e965d865942ffcfd4317d9743ca12c4b96be4a2112d2358fd6b6cd61959"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.79",
     "name": "Talos Mobile 1.10.79 (556)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: a854db97a2955fab70db9005a84f24bd4df58304854809a00456fa3f09857d1e",
