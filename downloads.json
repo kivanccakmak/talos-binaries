@@ -1,5 +1,51 @@
 [
   {
+    "tag_name": "v2.2.128",
+    "name": "Talos Desktop 2.2.128",
+    "body": "Talos Desktop 2.2.128: staged automatic desktop update release.",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-13T22:06:10Z",
+    "assets": [
+      {
+        "id": 745338931,
+        "name": "latest-mac.yml",
+        "label": "",
+        "size": 499,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.128/latest-mac.yml",
+        "digest": "sha256:56e4479c8e1453a935b26313df9c04c2d211d3b6faefd0421c4fdc5abb714174"
+      },
+      {
+        "id": 745338932,
+        "name": "Talos-2.2.128-arm64.zip",
+        "label": "",
+        "size": 218255941,
+        "content_type": "application/zip",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.128/Talos-2.2.128-arm64.zip",
+        "digest": "sha256:d840509f521a33efb16932536d6484e9b488812f1ed3a9067c86f41ddac00209"
+      },
+      {
+        "id": 745338940,
+        "name": "Talos-2.2.128-arm64.dmg",
+        "label": "",
+        "size": 224970148,
+        "content_type": "application/x-apple-diskimage",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.128/Talos-2.2.128-arm64.dmg",
+        "digest": "sha256:e29dd517119c642d6d3063542b7364a97c1466ab06d4a712116ed69fd7ea3e07"
+      },
+      {
+        "id": 745338944,
+        "name": "Talos-2.2.128-arm64.zip.blockmap",
+        "label": "",
+        "size": 228562,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.2.128/Talos-2.2.128-arm64.zip.blockmap",
+        "digest": "sha256:8c814d1b1c46c3d5469a5c54f75ce99062edf197de31cf83688d12932b1ff385"
+      }
+    ]
+  },
+  {
     "tag_name": "v2.2.127",
     "name": "Talos Desktop 2.2.127",
     "body": "Talos Desktop 2.2.127: staged automatic desktop update release.",
