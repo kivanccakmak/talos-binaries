@@ -1,5 +1,24 @@
 [
   {
+    "tag_name": "mobile-v1.10.83",
+    "name": "Talos Mobile 1.10.83 (563)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 5c1fb8d50a57401cbc767a64e16fc4f1f62806d79b725a7aad5a44f2c0972b59",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-14T10:06:38Z",
+    "assets": [
+      {
+        "id": 747065564,
+        "name": "Talos-Mobile-1.10.83-build-563-android-arm64.apk",
+        "label": "",
+        "size": 80390278,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.83/Talos-Mobile-1.10.83-build-563-android-arm64.apk",
+        "digest": "sha256:5c1fb8d50a57401cbc767a64e16fc4f1f62806d79b725a7aad5a44f2c0972b59"
+      }
+    ]
+  },
+  {
     "tag_name": "v2.2.128",
     "name": "Talos Desktop 2.2.128",
     "body": "Talos Desktop 2.2.128: staged automatic desktop update release.",
