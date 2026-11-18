@@ -1,5 +1,33 @@
 [
   {
+    "tag_name": "mobile-v1.10.93",
+    "name": "Talos Mobile 1.10.93 (577)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 52403f624ca8842d9e6f547bf4b7f3b409fae8051b24754dc7864f29e59cdd5f\n\n**Talos Cable 1.10.93 (577)** — `Talos-Cable-1.10.93-build-577-android-arm64.apk`: Talos Cable = separate app, no package conflict with the Play app (package works.talos.mobile.cable, installs next to the Google Play Talos). Minimum Android 8.0. SHA-256: 2c9ac0088f6f973c8174ed941b361fac46671f9f8f42addc08dca472d03847a2\n",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-18T15:53:37Z",
+    "assets": [
+      {
+        "id": 763995611,
+        "name": "Talos-Mobile-1.10.93-build-577-android-arm64.apk",
+        "label": "",
+        "size": 81077386,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.93/Talos-Mobile-1.10.93-build-577-android-arm64.apk",
+        "digest": "sha256:52403f624ca8842d9e6f547bf4b7f3b409fae8051b24754dc7864f29e59cdd5f"
+      },
+      {
+        "id": 764361155,
+        "name": "Talos-Cable-1.10.93-build-577-android-arm64.apk",
+        "label": "",
+        "size": 89661286,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.93/Talos-Cable-1.10.93-build-577-android-arm64.apk",
+        "digest": "sha256:2c9ac0088f6f973c8174ed941b361fac46671f9f8f42addc08dca472d03847a2"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.87",
     "name": "Talos Cable 1.10.87 (569)",
     "body": "Talos Cable Android direct-install release (separate app, installs next to the Google Play Talos without a package conflict). Package: works.talos.mobile.cable. Minimum Android version: 8.0. SHA-256: ac3d2e3450e8bbef0e3d87cae1a0a998524db5bb0d4ad303c1aef0400f22bed7",
