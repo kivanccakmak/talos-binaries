@@ -1,5 +1,24 @@
 [
   {
+    "tag_name": "mobile-v1.10.96",
+    "name": "Talos Mobile 1.10.96 (603)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 0ea2f636064720fc89cf630821febb1e8237531f2abfb062179c65e626bc57f3",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-20T16:25:55Z",
+    "assets": [
+      {
+        "id": 772495442,
+        "name": "Talos-Mobile-1.10.96-build-603-android-arm64.apk",
+        "label": "",
+        "size": 81473594,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.96/Talos-Mobile-1.10.96-build-603-android-arm64.apk",
+        "digest": "sha256:0ea2f636064720fc89cf630821febb1e8237531f2abfb062179c65e626bc57f3"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.93",
     "name": "Talos Mobile 1.10.93 (577)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 52403f624ca8842d9e6f547bf4b7f3b409fae8051b24754dc7864f29e59cdd5f\n\n**Talos Cable 1.10.93 (577)** — `Talos-Cable-1.10.93-build-577-android-arm64.apk`: Talos Cable = separate app, no package conflict with the Play app (package works.talos.mobile.cable, installs next to the Google Play Talos). Minimum Android 8.0. SHA-256: 2c9ac0088f6f973c8174ed941b361fac46671f9f8f42addc08dca472d03847a2\n",
