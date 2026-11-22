@@ -1,5 +1,511 @@
 [
   {
+    "tag_name": "mobile-v1.10.99",
+    "name": "Talos Mobile 1.10.99 (611)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: a8356cfe4061f6f6eceffc139571b57b4052f216216538ab658f6cb1465cac0b",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-22T09:12:04Z",
+    "assets": [
+      {
+        "id": 778493897,
+        "name": "Talos-Mobile-1.10.99-build-611-android-arm64.apk",
+        "label": "",
+        "size": 82330778,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.99/Talos-Mobile-1.10.99-build-611-android-arm64.apk",
+        "digest": "sha256:a8356cfe4061f6f6eceffc139571b57b4052f216216538ab658f6cb1465cac0b"
+      }
+    ]
+  },
+  {
+    "tag_name": "v0.2.37",
+    "name": "tedge v0.2.37",
+    "body": "tedge — Talos Edge appliance binary for Linux, macOS and Windows. Includes Observer and Octopus modes. Install on Linux with install.sh or a release .deb; use the native binary plus the foreground launcher on macOS/Windows.",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-22T05:07:53Z",
+    "assets": [
+      {
+        "id": 777942960,
+        "name": "tedge-darwin-arm64",
+        "label": "",
+        "size": 18852450,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-darwin-arm64",
+        "digest": "sha256:f1a3effed4ea0d4389869c5bbc81f4ec797b1ab8d216b26409187c10631d59e9"
+      },
+      {
+        "id": 777942961,
+        "name": "tedge-linux-armv7",
+        "label": "",
+        "size": 21364898,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-linux-armv7",
+        "digest": "sha256:86e368315dd59f5459af23f0e20d2909e51dad7601a8185252da7fcdba7cc879"
+      },
+      {
+        "id": 777942962,
+        "name": "tedge-linux-arm64",
+        "label": "",
+        "size": 20906146,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-linux-arm64",
+        "digest": "sha256:3abc9d065c1a7c37dc15b8bf6efd9f0c1452df5c02e21c2b0a953ea24f390fae"
+      },
+      {
+        "id": 777942964,
+        "name": "tedge-linux-amd64",
+        "label": "",
+        "size": 22634658,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-linux-amd64",
+        "digest": "sha256:907126f350ff1e58a8105025b096920829ecf1ba50f5fcb5bd030caacc55a8f7"
+      },
+      {
+        "id": 777942965,
+        "name": "tedge-darwin-amd64",
+        "label": "",
+        "size": 20296288,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-darwin-amd64",
+        "digest": "sha256:5c62e00c4c411d6313c1b912753d0b3cf313f748b9fbcd05907754896b1dbe3e"
+      },
+      {
+        "id": 777944778,
+        "name": "tedge-windows-amd64.exe",
+        "label": "",
+        "size": 20804608,
+        "content_type": "application/x-msdownload",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-windows-amd64.exe",
+        "digest": "sha256:999bfb4104447aea7e58f69930c52c7e6f172e15f08116b71ab376b74c7b7358"
+      },
+      {
+        "id": 777944886,
+        "name": "tedge-windows-arm64.exe",
+        "label": "",
+        "size": 18974208,
+        "content_type": "application/x-msdownload",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-windows-arm64.exe",
+        "digest": "sha256:e1540e9f3ea4fee2c9cf5268bdc5eefbc79a26f0d557b35fd9ed8581f5c202da"
+      },
+      {
+        "id": 777944987,
+        "name": "tedge_0.2.37_arm64.deb",
+        "label": "",
+        "size": 8315108,
+        "content_type": "application/x-debian-package",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge_0.2.37_arm64.deb",
+        "digest": "sha256:53e27e6720bdc8550bf4b960d60f9c38c2e213bce690f3150ed70743c80eb1b7"
+      },
+      {
+        "id": 777945100,
+        "name": "tedge_0.2.37_armhf.deb",
+        "label": "",
+        "size": 8754768,
+        "content_type": "application/x-debian-package",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge_0.2.37_armhf.deb",
+        "digest": "sha256:b57c3c44a427c94d11d205d5a03e043f2d6e1e1618ffd43e60b74af4127db6ec"
+      },
+      {
+        "id": 777945427,
+        "name": "tedge_0.2.37_amd64.deb",
+        "label": "",
+        "size": 9112284,
+        "content_type": "application/x-debian-package",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge_0.2.37_amd64.deb",
+        "digest": "sha256:96cb4137d641ddeed1bad0da6a484f0a755f47b3819af7fcda0ae395bb345b7a"
+      },
+      {
+        "id": 777945566,
+        "name": "SHA256SUMS",
+        "label": "",
+        "size": 4674,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/SHA256SUMS",
+        "digest": "sha256:91f4f4ad00baae94c1d2942d0119ce46f624dcb92cd356e53b6e0e87688232a7"
+      },
+      {
+        "id": 777945602,
+        "name": "tedge@.service",
+        "label": "",
+        "size": 1749,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge%40.service",
+        "digest": "sha256:613c22e2781de0c3aeb473df1019312acbd46f2e4ad9c6bb75496ec4d2d2c7f7"
+      },
+      {
+        "id": 777945621,
+        "name": "tedge-tapo-control.service",
+        "label": "",
+        "size": 511,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-tapo-control.service",
+        "digest": "sha256:5bfe01ba06c7334da997fde9d287c53348373dfc0df58037b973471226ddd862"
+      },
+      {
+        "id": 777945652,
+        "name": "tedge-camera-runtime.service",
+        "label": "",
+        "size": 456,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-camera-runtime.service",
+        "digest": "sha256:affd60151c56c82aad88ac662a3720e69adf0e69a9f73776cb25951022b5ed68"
+      },
+      {
+        "id": 777945674,
+        "name": "tedge-camera-tunnel.service",
+        "label": "",
+        "size": 564,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-camera-tunnel.service",
+        "digest": "sha256:69ae260ef847119d2206f583461ae8615222d28920f392e0b1ee1a9075b87b8a"
+      },
+      {
+        "id": 777945677,
+        "name": "tapo_ctrl.py",
+        "label": "",
+        "size": 15491,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tapo_ctrl.py",
+        "digest": "sha256:c3bd31911380966e308737470d9ddf6ead9a6df5ca9cc7bfa312de18852c1932"
+      },
+      {
+        "id": 777945692,
+        "name": "tapo_vision.py",
+        "label": "",
+        "size": 4754,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tapo_vision.py",
+        "digest": "sha256:e4b2385c9aa89b772a31348376efdde59814fdab1fa58966666b471d0d15507b"
+      },
+      {
+        "id": 777945700,
+        "name": "tapo_sd_sync.py",
+        "label": "",
+        "size": 29728,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tapo_sd_sync.py",
+        "digest": "sha256:5c1f179262b061e26a8ff48c15acce00967e94a1d5b536c95e1cd3b2afa6ca27"
+      },
+      {
+        "id": 777945722,
+        "name": "talos_motion_offsite.py",
+        "label": "",
+        "size": 10772,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/talos_motion_offsite.py",
+        "digest": "sha256:4585504f0d94dd5d2102b22bd1342677695c550682c07e6c50e08dadde8a90e7"
+      },
+      {
+        "id": 777945735,
+        "name": "edge.example.json",
+        "label": "",
+        "size": 13581,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge.example.json",
+        "digest": "sha256:b9b874564578f0ca0c44848e573aa670743cd8276085cf2004f09f2887969050"
+      },
+      {
+        "id": 777945742,
+        "name": "camera-bundle.example.json",
+        "label": "",
+        "size": 509,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/camera-bundle.example.json",
+        "digest": "sha256:039888b607c18bb57e4c028dff51444648f7cd7bd9b2e64096882566e4b01a0c"
+      },
+      {
+        "id": 777945754,
+        "name": "tapo-sd-sync.example.json",
+        "label": "",
+        "size": 590,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tapo-sd-sync.example.json",
+        "digest": "sha256:a5a950bcf731a9eece30f0b237209f5ae7cc03553249d68c1e392547ba8f2b62"
+      },
+      {
+        "id": 777945800,
+        "name": "motion-offsite.example.json",
+        "label": "",
+        "size": 374,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/motion-offsite.example.json",
+        "digest": "sha256:e216f3ac88b1d594188752cfd5e33ff7dbcb1ec30b0c814fcff2ce102c17e4db"
+      },
+      {
+        "id": 777945804,
+        "name": "install.sh",
+        "label": "",
+        "size": 5803,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/install.sh",
+        "digest": "sha256:28c69aa06d2b319a4c3f45d9bb8fc3e883ad255e08b5c4685cf5f6b16cea05b6"
+      },
+      {
+        "id": 777945822,
+        "name": "install-camera-runtime.sh",
+        "label": "",
+        "size": 7165,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/install-camera-runtime.sh",
+        "digest": "sha256:77cc71342b58a59e28fda915d3d9a13756871e912e07552889fd694f57cc94e6"
+      },
+      {
+        "id": 777945827,
+        "name": "bootstrap-pi.sh",
+        "label": "",
+        "size": 7534,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/bootstrap-pi.sh",
+        "digest": "sha256:c4c65108a6d340af1dc265265c8589a789a7c357833a2da85baa1c6c08ca9e91"
+      },
+      {
+        "id": 777945852,
+        "name": "mediamtx.yml.example",
+        "label": "",
+        "size": 1144,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/mediamtx.yml.example",
+        "digest": "sha256:a41c49d6d190df726baef9d5ec4909f0cf937dc4fb33c90191601460e69b060e"
+      },
+      {
+        "id": 777945856,
+        "name": "tedge-camera-vision.service",
+        "label": "",
+        "size": 545,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-camera-vision.service",
+        "digest": "sha256:0d3a08a646f327535bce4a1976a109db8eb254ad721e7149022d8102047850f8"
+      },
+      {
+        "id": 777945865,
+        "name": "tedge-tapo-sd-status.service",
+        "label": "",
+        "size": 510,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-tapo-sd-status.service",
+        "digest": "sha256:375cd2e86aa0c01717410038c5f32d49c99b9681bdced623528a89deb7a148e3"
+      },
+      {
+        "id": 777945868,
+        "name": "tedge-tapo-sd-status.timer",
+        "label": "",
+        "size": 223,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-tapo-sd-status.timer",
+        "digest": "sha256:79a678da028bc148203ebccfb13ab127f303690e73710afb538b9f56c0e826f9"
+      },
+      {
+        "id": 777945877,
+        "name": "tedge-tapo-sd-sync.service",
+        "label": "",
+        "size": 697,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-tapo-sd-sync.service",
+        "digest": "sha256:affbb6c0baab833dea70056c1cde227c60bd4ba0c915d410f478bd5f8ef342e6"
+      },
+      {
+        "id": 777945889,
+        "name": "tedge-tapo-sd-sync.timer",
+        "label": "",
+        "size": 240,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-tapo-sd-sync.timer",
+        "digest": "sha256:e9cca3af725efb8815cd46e67e7dfbb5b14c66c6ce0a729cbf202c0e50967398"
+      },
+      {
+        "id": 777945893,
+        "name": "talos-motion-offsite.service",
+        "label": "",
+        "size": 699,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/talos-motion-offsite.service",
+        "digest": "sha256:bf6ca76ec6366c69884334a23d560101045fc9034cbe0fb4c18a80b838e8d02e"
+      },
+      {
+        "id": 777945902,
+        "name": "talos-motion-offsite.timer",
+        "label": "",
+        "size": 242,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/talos-motion-offsite.timer",
+        "digest": "sha256:97908171288ea80c38778785e317590452bfcf7b97b13081d747b35a901bb09a"
+      },
+      {
+        "id": 777945907,
+        "name": "install-observer-runtime.sh",
+        "label": "",
+        "size": 2599,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/install-observer-runtime.sh",
+        "digest": "sha256:f593b17457fbc4a014c521f5acadfc91f29136c3f6881f9e30bebc4cad530c81"
+      },
+      {
+        "id": 777945908,
+        "name": "observer_sidecar.py",
+        "label": "",
+        "size": 41271,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/observer_sidecar.py",
+        "digest": "sha256:5e1f0cb4cfc576af1197b441f59b09db348eec7ab5ea18495d97402aa2d63d11"
+      },
+      {
+        "id": 777945912,
+        "name": "tedge-observer-sidecar.service",
+        "label": "",
+        "size": 642,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/tedge-observer-sidecar.service",
+        "digest": "sha256:9d02155c0cae74c71254622c6751b761fd7832a9228593c35bb8fc7a44ab539d"
+      },
+      {
+        "id": 777945913,
+        "name": "observer.example.json",
+        "label": "",
+        "size": 1080,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/observer.example.json",
+        "digest": "sha256:7afd322c3753c937a652b0312b3322b59ad18e849cdce100aea8dc608380e88c"
+      },
+      {
+        "id": 777945914,
+        "name": "observer.coremp135.example.json",
+        "label": "",
+        "size": 1132,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/observer.coremp135.example.json",
+        "digest": "sha256:7269c5e4b66c87c360558fb52ce76127809e48d99b2b79234987de006f70ee14"
+      },
+      {
+        "id": 777945925,
+        "name": "observer.windows.example.json",
+        "label": "",
+        "size": 993,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/observer.windows.example.json",
+        "digest": "sha256:7fe975664041dd95f95266d9845339cda4ebb602afab2079406a8b6b79c21ef6"
+      },
+      {
+        "id": 777945945,
+        "name": "observer.macos.example.json",
+        "label": "",
+        "size": 1063,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/observer.macos.example.json",
+        "digest": "sha256:0e548536b18bd73b542796727843052130783749a2b4b92c00a5fd9c85afe0f6"
+      },
+      {
+        "id": 777945959,
+        "name": "requirements.txt",
+        "label": "",
+        "size": 155,
+        "content_type": "text/plain; charset=utf-8",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/requirements.txt",
+        "digest": "sha256:6218b6eedd68398548464cab4ffd392098284c3cdb8c5cfb8a4382b7b446f7ce"
+      },
+      {
+        "id": 777945960,
+        "name": "setup-local-runtime.ps1",
+        "label": "",
+        "size": 344,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/setup-local-runtime.ps1",
+        "digest": "sha256:845085da0907557d06fc7cac7303fdcf445d161b812e1c8607514d329032cfda"
+      },
+      {
+        "id": 777945961,
+        "name": "setup-local-runtime.sh",
+        "label": "",
+        "size": 402,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/setup-local-runtime.sh",
+        "digest": "sha256:499d162a1f94e441efb4a3c12a08c56a5f34470f156a9e5a973ce0ded1ce324f"
+      },
+      {
+        "id": 777945975,
+        "name": "edge-observer.pi.example.json",
+        "label": "",
+        "size": 870,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-observer.pi.example.json",
+        "digest": "sha256:18437b9cde48404b9335c142c3b26a507cfdc2a1874514990f3ee21c36f31c68"
+      },
+      {
+        "id": 777945979,
+        "name": "edge-observer.macos.example.json",
+        "label": "",
+        "size": 847,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-observer.macos.example.json",
+        "digest": "sha256:3d896112b602be9fb24a4ea4788947e2d7e3629ffb921938c25b11d2b373a9a6"
+      },
+      {
+        "id": 777945987,
+        "name": "edge-observer.windows.example.json",
+        "label": "",
+        "size": 795,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-observer.windows.example.json",
+        "digest": "sha256:d68d8e86dd8fb3daa4a77e3b276a75b29a9332b103a8968fae895ce1ccfd3567"
+      },
+      {
+        "id": 777945991,
+        "name": "hardware-kvm.example.json",
+        "label": "",
+        "size": 1482,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/hardware-kvm.example.json",
+        "digest": "sha256:0a5bbe50b6dc41819f8798044abb9e91850637ef546f33760885d767331300bc"
+      },
+      {
+        "id": 777945994,
+        "name": "edge-octopus.pi.example.json",
+        "label": "",
+        "size": 560,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-octopus.pi.example.json",
+        "digest": "sha256:9571826e5d4243501d618c6927dc10b36b389bb7dc232c54955889b52fd126be"
+      },
+      {
+        "id": 777946001,
+        "name": "edge-octopus.macos.example.json",
+        "label": "",
+        "size": 559,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-octopus.macos.example.json",
+        "digest": "sha256:3382f80cbc0d15a88ce60841268e46b7d15e9f54ffef584454f8b8a4e933218a"
+      },
+      {
+        "id": 777946002,
+        "name": "edge-octopus.windows.example.json",
+        "label": "",
+        "size": 534,
+        "content_type": "application/json",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/edge-octopus.windows.example.json",
+        "digest": "sha256:fe955fff0ea8896c336e580c6f0be135f04514b37bd84f8c86e21533978a41bd"
+      },
+      {
+        "id": 777946009,
+        "name": "run-local.sh",
+        "label": "",
+        "size": 1572,
+        "content_type": "application/x-sh",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/run-local.sh",
+        "digest": "sha256:6a760a4ec18ce929de0125bdfc1221aaec49f1d507647d84d1cf4b29c5141282"
+      },
+      {
+        "id": 777946020,
+        "name": "run-local.ps1",
+        "label": "",
+        "size": 1413,
+        "content_type": "application/octet-stream",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v0.2.37/run-local.ps1",
+        "digest": "sha256:512c20e32bdb754f4bb9578df3ee4c535368bee3fc1ec9e16d94231af5efd684"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.98",
     "name": "Talos Mobile 1.10.98 (610)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 07c8f18fe4cf8c2879b36ef02b208ee97332ad2cd087fab3f50e4fba90fd3fa4",
@@ -4764,52 +5270,52 @@
     "published_at": "2026-10-13T19:12:24Z",
     "assets": [
       {
-        "id": 725667941,
+        "id": 777948887,
         "name": "InRelease",
         "label": "",
         "size": 1487,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/InRelease",
-        "digest": "sha256:a2dbfc19d9c4f8bd912259cceb8d84a0987336a50519f24915209c74bfa1b38b"
+        "digest": "sha256:ea6292c950bf843d53be00f8ecb1cf3e7efe4463afe5f9bd37bf28452a508027"
       },
       {
-        "id": 725667943,
+        "id": 777948890,
         "name": "Packages",
         "label": "",
         "size": 4572,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Packages",
-        "digest": "sha256:c02ff9b9d089e42c6b68060ba7630ff5e5814ddf521b17853a63aac68a1af08f"
+        "digest": "sha256:17ea4cc89ad64fb894f61f8d41fd303028a2abb29b5f7ba2961559cc331a3558"
       },
       {
-        "id": 725667938,
+        "id": 777948888,
         "name": "Packages.gz",
         "label": "",
-        "size": 1639,
+        "size": 1640,
         "content_type": "application/gzip",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Packages.gz",
-        "digest": "sha256:a0bd78b34fcab1c8369d014ee387e6fd404c600aaf551ec6c1062e9281426071"
+        "digest": "sha256:ef66e516a8d6260f259a9fc9903992156e312c88248b2926f49f14b6cbe0d617"
       },
       {
-        "id": 725667940,
+        "id": 777948893,
         "name": "Release",
         "label": "",
         "size": 576,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Release",
-        "digest": "sha256:0ee28fa2fd4bba043ec5320b1bbe4ecf62c8a2326259b55af8a9ab691c748dd6"
+        "digest": "sha256:9fa2b31437867599e46394fe5f329207b00eb242485c21978f8d936ab4761037"
       },
       {
-        "id": 725667937,
+        "id": 777948884,
         "name": "Release.gpg",
         "label": "",
         "size": 862,
         "content_type": "application/octet-stream",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/Release.gpg",
-        "digest": "sha256:80504f98bbd74bd14a8cf309f777dc91ae6224f40fa71d552a318c1859c2e228"
+        "digest": "sha256:0fa18a9171d1fbeaebbd49ad90cb75e173b87113bd0be94ed8592c764b345a36"
       },
       {
-        "id": 725667966,
+        "id": 777948917,
         "name": "talcli_0.1.8919+7b7b3d850_arm64.deb",
         "label": "",
         "size": 12266488,
@@ -4818,7 +5324,7 @@
         "digest": "sha256:48583d98f9acdcf42d20cf7c429a7866b62318f106eeb315b49e1e19003b5a3a"
       },
       {
-        "id": 725667974,
+        "id": 777948931,
         "name": "talcli_0.1.8919+7b7b3d850_armhf.deb",
         "label": "",
         "size": 13162796,
@@ -4827,7 +5333,7 @@
         "digest": "sha256:dd79a9cb96a3985b7c9b5dda4ec41f69674f65045e191cdddd192bfaf4e0bec5"
       },
       {
-        "id": 725667975,
+        "id": 777948933,
         "name": "talos-fleet_2026.11.09.8959_all.deb",
         "label": "",
         "size": 43198,
@@ -4836,7 +5342,7 @@
         "digest": "sha256:6e9f238485cbf2d9a07cf04fff3404d6df1575da4ff1b4b72ca8684564195492"
       },
       {
-        "id": 725667976,
+        "id": 777948935,
         "name": "talos.asc",
         "label": "",
         "size": 1656,
@@ -4845,7 +5351,7 @@
         "digest": "sha256:1b8916ab6a6352351026b9b0fa191f493193364a354230e38dad467bea4c81dc"
       },
       {
-        "id": 725667982,
+        "id": 777949045,
         "name": "talos.gpg",
         "label": "",
         "size": 1162,
@@ -4854,7 +5360,7 @@
         "digest": "sha256:8b0457834454ee8ad577e75d7b7310ce109ab783ab718176aa4a9b72afdc94e4"
       },
       {
-        "id": 725668034,
+        "id": 777949091,
         "name": "talos_2.2.71_amd64.deb",
         "label": "",
         "size": 187688420,
@@ -4863,31 +5369,31 @@
         "digest": "sha256:6f0e426eaa25aa99f21fe29c2fba66679d180c1682ef39f311d1e4c27bd2065d"
       },
       {
-        "id": 725668014,
-        "name": "tedge_0.2.36_amd64.deb",
+        "id": 777949084,
+        "name": "tedge_0.2.37_amd64.deb",
         "label": "",
-        "size": 7295792,
+        "size": 9112284,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_amd64.deb",
-        "digest": "sha256:94804f0c6d386bd819d70ab7f0a4a08bd546efec00a860f0877c33397a700fe0"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.37_amd64.deb",
+        "digest": "sha256:96cb4137d641ddeed1bad0da6a484f0a755f47b3819af7fcda0ae395bb345b7a"
       },
       {
-        "id": 725668023,
-        "name": "tedge_0.2.36_arm64.deb",
+        "id": 777949113,
+        "name": "tedge_0.2.37_arm64.deb",
         "label": "",
-        "size": 6633724,
+        "size": 8315108,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_arm64.deb",
-        "digest": "sha256:cbdca765c3fa03b4be4aeb5d14f91807e76ae4e474efaa81eb7037d269103784"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.37_arm64.deb",
+        "digest": "sha256:53e27e6720bdc8550bf4b960d60f9c38c2e213bce690f3150ed70743c80eb1b7"
       },
       {
-        "id": 725668579,
-        "name": "tedge_0.2.36_armhf.deb",
+        "id": 777950269,
+        "name": "tedge_0.2.37_armhf.deb",
         "label": "",
-        "size": 7007566,
+        "size": 8754768,
         "content_type": "application/x-debian-package",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.36_armhf.deb",
-        "digest": "sha256:3c52405a1b81f56a5c87511cc6937804b26b507b84d3421667498fa3cd075564"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/apt/tedge_0.2.37_armhf.deb",
+        "digest": "sha256:b57c3c44a427c94d11d205d5a03e043f2d6e1e1618ffd43e60b74af4127db6ec"
       }
     ]
   },
