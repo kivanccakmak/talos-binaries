@@ -1,5 +1,24 @@
 [
   {
+    "tag_name": "mobile-v1.10.112",
+    "name": "Talos Mobile 1.10.112 (624)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 90aa48f0fc0529f01ac979c62db8cbd788bbba42e86c7686f30a2f4c21c91587",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-26T15:03:24Z",
+    "assets": [
+      {
+        "id": 796405553,
+        "name": "Talos-Mobile-1.10.112-build-624-android-arm64.apk",
+        "label": "",
+        "size": 83022822,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.112/Talos-Mobile-1.10.112-build-624-android-arm64.apk",
+        "digest": "sha256:90aa48f0fc0529f01ac979c62db8cbd788bbba42e86c7686f30a2f4c21c91587"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.111",
     "name": "Talos Mobile 1.10.111 (623)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 5e079c031d55402b2a23b53f920169c44dfb23f7ee450d812deec52713e389d4",
