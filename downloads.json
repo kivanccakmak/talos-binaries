@@ -1,5 +1,43 @@
 [
   {
+    "tag_name": "mobile-v1.10.113",
+    "name": "Talos Mobile 1.10.113 (625)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: d93a12588f84ef52c1c6dceb30416bb00100ffc3aa4ccd04b9c7fe66554d4885",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-27T09:46:17Z",
+    "assets": [
+      {
+        "id": 799883674,
+        "name": "Talos-Mobile-1.10.113-build-625-android-arm64.apk",
+        "label": "",
+        "size": 83044586,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.113/Talos-Mobile-1.10.113-build-625-android-arm64.apk",
+        "digest": "sha256:d93a12588f84ef52c1c6dceb30416bb00100ffc3aa4ccd04b9c7fe66554d4885"
+      }
+    ]
+  },
+  {
+    "tag_name": "mobile-v1.10.115",
+    "name": "Talos Mobile 1.10.115 (627)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: bd6bb189250f118e7e17ec6681a2c07b83f94bc470075dff513bf7735e09c2a1",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-27T06:46:14Z",
+    "assets": [
+      {
+        "id": 799318550,
+        "name": "Talos-Mobile-1.10.115-build-627-android-arm64.apk",
+        "label": "",
+        "size": 83058398,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.115/Talos-Mobile-1.10.115-build-627-android-arm64.apk",
+        "digest": "sha256:bd6bb189250f118e7e17ec6681a2c07b83f94bc470075dff513bf7735e09c2a1"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.114",
     "name": "Talos Mobile 1.10.114 (626)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: b656087cc0ceeb9fbfc43fdc1d677dde052e66a6f851e001012745f0ddf278d6",
