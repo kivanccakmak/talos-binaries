@@ -1,5 +1,24 @@
 [
   {
+    "tag_name": "mobile-v1.10.117",
+    "name": "Talos Mobile 1.10.117 (630)",
+    "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 3b4204fb15b81e0f595b1c7342281be14958f4f2943d78541906fe6fff68ce0c",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-11-27T21:49:45Z",
+    "assets": [
+      {
+        "id": 802180636,
+        "name": "Talos-Mobile-1.10.117-build-630-android-arm64.apk",
+        "label": "",
+        "size": 83134630,
+        "content_type": "application/vnd.android.package-archive",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/mobile-v1.10.117/Talos-Mobile-1.10.117-build-630-android-arm64.apk",
+        "digest": "sha256:3b4204fb15b81e0f595b1c7342281be14958f4f2943d78541906fe6fff68ce0c"
+      }
+    ]
+  },
+  {
     "tag_name": "mobile-v1.10.116",
     "name": "Talos Mobile 1.10.116 (629)",
     "body": "Talos Android direct-install release. Package: works.talos.mobile. Minimum Android version: 8.0. SHA-256: 58e43519e6f13d6c728ed9bd5166227ae3e3b115b3601d9c4eea25d06dc2ec09",
@@ -3523,24 +3542,6 @@
     "published_at": "2026-10-18T13:03:07Z",
     "assets": [
       {
-        "id": 653505706,
-        "name": "talcli_2.2.0_darwin-arm64.tar.gz",
-        "label": "",
-        "size": 8619249,
-        "content_type": "application/x-gtar",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_darwin-arm64.tar.gz",
-        "digest": "sha256:51789abf998281bf48614122073661214266db8976160aec4a2ba7416b43a1ff"
-      },
-      {
-        "id": 653505707,
-        "name": "talcli_2.2.0_linux-arm64.tar.gz",
-        "label": "",
-        "size": 8366059,
-        "content_type": "application/x-gtar",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_linux-arm64.tar.gz",
-        "digest": "sha256:407c9da19958f0a3cb05cb6a988fc9e360f1b39c9aac425863db8d7077c63d88"
-      },
-      {
         "id": 653505714,
         "name": "checksums.txt",
         "label": "",
@@ -3548,6 +3549,24 @@
         "content_type": "text/plain; charset=utf-8",
         "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/checksums.txt",
         "digest": "sha256:4af194c80363a967bebc6e31ec0e6d450dfe415b8b61f8aee00bb12f7d175642"
+      },
+      {
+        "id": 653505725,
+        "name": "talcli_2.2.0_darwin-amd64.tar.gz",
+        "label": "",
+        "size": 9284016,
+        "content_type": "application/x-gtar",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_darwin-amd64.tar.gz",
+        "digest": "sha256:c9e452075fc25fbde9fadba4dd36bfbc4e91f5031c9f39871c19026b8a1dd22d"
+      },
+      {
+        "id": 653505706,
+        "name": "talcli_2.2.0_darwin-arm64.tar.gz",
+        "label": "",
+        "size": 8619249,
+        "content_type": "application/x-gtar",
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_darwin-arm64.tar.gz",
+        "digest": "sha256:51789abf998281bf48614122073661214266db8976160aec4a2ba7416b43a1ff"
       },
       {
         "id": 653505716,
@@ -3559,13 +3578,13 @@
         "digest": "sha256:5c3474bbc28faaa859efa187a7939896f49b1c3acd994affa1c99120638ad5fd"
       },
       {
-        "id": 653505725,
-        "name": "talcli_2.2.0_darwin-amd64.tar.gz",
+        "id": 653505707,
+        "name": "talcli_2.2.0_linux-arm64.tar.gz",
         "label": "",
-        "size": 9284016,
+        "size": 8366059,
         "content_type": "application/x-gtar",
-        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_darwin-amd64.tar.gz",
-        "digest": "sha256:c9e452075fc25fbde9fadba4dd36bfbc4e91f5031c9f39871c19026b8a1dd22d"
+        "browser_download_url": "https://github.com/kivanccakmak/talos-binaries/releases/download/talcli-v2.2.0/talcli_2.2.0_linux-arm64.tar.gz",
+        "digest": "sha256:407c9da19958f0a3cb05cb6a988fc9e360f1b39c9aac425863db8d7077c63d88"
       },
       {
         "id": 653505746,
